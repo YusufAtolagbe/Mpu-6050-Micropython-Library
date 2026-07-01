@@ -80,10 +80,10 @@ while True:
 
 Two ready-to-run example scripts are included in the [`examples/`](./examples) folder of this repository:
 
-### `example1_default_config.py`
+### `example1.py`
 This is the simplest way to use the library. It creates the sensor object and starts taking readings **without changing any settings**, so the sensor runs on its default configuration (±2g accelerometer range, ±250°/s gyroscope range). Good starting point if you just want to confirm your sensor is working.
 
-### `example2_custom_config.py`
+### `example2.py`
 This example shows how to **customize the sensor's behavior** before reading data. It configures:
 - The digital filter to 188 Hz
 - The gyroscope range to ±1000°/s
