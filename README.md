@@ -25,8 +25,8 @@ This library talks to the sensor over **I2C** and handles all the low-level regi
 If you're using a **GY-521** breakout board with the **AD0 pin grounded**, the sensor's I2C address will be `0x68`. (If AD0 is instead connected to 3.3V, the address becomes `0x69`.)
 
 Connect:
-- `SCL` → any I2C-capable pin on your board
-- `SDA` → any I2C-capable pin on your board
+- `SCL` → corresponidng I2C-SCL pin on your board
+- `SDA` → any I2C-SDA pin on your board
 - `VCC` → 3.3V
 - `GND` → GND
 
