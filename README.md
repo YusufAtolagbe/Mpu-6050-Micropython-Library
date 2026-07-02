@@ -26,7 +26,7 @@ If you're using a **GY-521** breakout board with the **AD0 pin grounded**, the s
 
 Connect:
 - `SCL` → corresponidng I2C-SCL pin on your board
-- `SDA` → any I2C-SDA pin on your board
+- `SDA` → corresponding I2C-SDA pin on your board
 - `VCC` → 3.3V
 - `GND` → GND
 
@@ -78,7 +78,7 @@ while True:
 
 ## Examples
 
-Two ready-to-run example scripts are included in the [`examples/`](./examples) folder of this repository:
+Two ready-to-run example scripts are included in this repository:
 
 ### `example1.py`
 This is the simplest way to use the library. It creates the sensor object and starts taking readings **without changing any settings**, so the sensor runs on its default configuration (±2g accelerometer range, ±250°/s gyroscope range). Good starting point if you just want to confirm your sensor is working.
